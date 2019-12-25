@@ -45,6 +45,10 @@ To launch the reference application with custom modules, drop your .omod files i
 
 If the backup environment variables are pointing to a valid directory (see below), the backup script under `util/backup.py` can be used to automatically take a database snapshot. This can be setup in a cronjob, for example, to do automated database backups.
 
+## Mobile Gateway
+
+The mobile gateway is a small flask app that accepts traffic from the fortitudoinc mobile app, which prospective patients can use to self-register.
+
 ## Environment variables
 
 See `environments/` directory for examples of how to set up in each situation.
